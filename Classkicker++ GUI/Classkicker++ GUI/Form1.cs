@@ -18,6 +18,7 @@ namespace Classkicker___GUI
         public static string botname;
         public static int threadcount = 5000;
         public static Thread[] threaderer = new Thread[threadcount];
+        
         public void forer(int botcount, string botname, string code)
         {
             for (int i = 1; botspumped <= botcount; i++)
