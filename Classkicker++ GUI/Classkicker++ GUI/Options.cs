@@ -69,14 +69,5 @@ namespace Classkicker___GUI
             label3.Text = "Current threads: " + threads;
             File.WriteAllText(Form1.threadfile, threads.ToString());
         }
-        protected override void OnFormClosing(FormClosingEventArgs e)
-        {
-            base.OnFormClosing(e);
-            if (e.CloseReason == CloseReason.UserClosing)
-            {
-                e.Cancel = true;
-                Hide();
-            }
-        }
     }
 }
