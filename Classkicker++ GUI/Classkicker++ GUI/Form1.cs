@@ -25,7 +25,7 @@ namespace Classkicker___GUI
             {
                 if (botspumped == botcount)
                 {
-                    File.AppendAllText(@"C:\Users\" + Environment.UserName + @"\Classkicker\benchmark.txt";, "\nTime Stopped: " + DateTime.Now);
+                    File.AppendAllText(@"C:\Users\" + Environment.UserName + @"\Classkicker\benchmark.txt", "\nTime Stopped: " + DateTime.Now);
                     MessageBox.Show("Flood complete");
                     Environment.Exit(0);
                 }
@@ -63,7 +63,7 @@ namespace Classkicker___GUI
             botcount = Convert.ToInt32(textBox2.Text);
             botname = textBox3.Text;
 
-            File.WriteAllText(@"C:\Users\" + Environment.UserName + @"\Classkicker\benchmark.txt";, "Time started: " + DateTime.Now);
+            File.WriteAllText(@"C:\Users\" + Environment.UserName + @"\Classkicker\benchmark.txt", "Time started: " + DateTime.Now);
 
             for (int i = 0; i < threadcount; i++)
             {
