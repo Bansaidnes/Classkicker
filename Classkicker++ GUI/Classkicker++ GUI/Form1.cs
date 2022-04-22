@@ -25,7 +25,7 @@ namespace Classkicker___GUI
             {
                 if (botspumped == botcount)
                 {
-                    File.AppendAllText("benchmark.txt", "\nTime Stopped: " + DateTime.Now);
+                    File.AppendAllText(@"C:\Users\" + Environment.UserName + @"\Classkicker\benchmark.txt";, "\nTime Stopped: " + DateTime.Now);
                     MessageBox.Show("Flood complete");
                     Environment.Exit(0);
                 }
