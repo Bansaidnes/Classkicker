@@ -63,7 +63,7 @@ namespace Classkicker___GUI
             botcount = Convert.ToInt32(textBox2.Text);
             botname = textBox3.Text;
 
-            File.WriteAllText("benchmark.txt", "Time started: " + DateTime.Now);
+            File.WriteAllText(@"C:\Users\" + Environment.UserName + @"\Classkicker\benchmark.txt";, "Time started: " + DateTime.Now);
 
             for (int i = 0; i < threadcount; i++)
             {
