@@ -1,4 +1,5 @@
-﻿using System;
+// Code outdated and shitty, better version not coming soon.
+using System;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Net;
