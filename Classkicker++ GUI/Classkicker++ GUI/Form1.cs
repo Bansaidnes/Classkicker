@@ -1,4 +1,4 @@
-// Code outdated and shitty, better version not coming soon.
+// Code outdated and shitty, better version coming soon.
 using System;
 using System.Threading.Tasks;
 using System.Windows.Forms;
