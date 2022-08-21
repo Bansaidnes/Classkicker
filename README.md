@@ -1,5 +1,8 @@
 # Classkicker++
  A multithreaded version of @SemiConductorShortage's classkicker project.
+ 
+ <THIS PROJECT IS NOW OUTDATED AND ITS CODE IS A MESS WRITTEN BY A RETARD LEARNING ABOUT THREADING WHILE WRITING THIS PROGRAM>
+ <A NEWER VERSION HAS BEEN WRITTEN BY THE ORIGINAL CREATOR OF CLASSKICKER BUT IS NOT READY TO RELASE TO THE PUBLIC>
 
 Original: 
 https://github.com/SemiConductorShortage/ClassKickerNEW
